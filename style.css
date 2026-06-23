@@ -1,0 +1,121 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.container {
+  background: white;
+  width: 400px;
+  max-width: 90%;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Question */
+#question {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+/* Options buttons */
+#options button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #f1f1f1;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+#options button:hover {
+  background: #ddd;
+  
+}
+
+/* Disabled buttons */
+#options button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Next button */
+#nextBtn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#nextBtn:hover {
+  background: #5a67d8;
+}
+
+#prevBtn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Score */
+#score {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Restart button */
+#restartBtn {
+  margin-top: 15px;
+  padding: 8px 15px;
+  border: none;
+  background: #ff7b7b;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#restartBtn:hover {
+  background: #ff5252;
+}
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background: #ddd;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+#progress {
+    height: 100%;
+    width: 0%;
+    background: #f20606bb;
+    border-radius: 10px;
+    transition:  width 0.4s ease;
+}
