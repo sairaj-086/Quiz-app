@@ -13,7 +13,7 @@ An interactive Quiz Application built using HTML, CSS, and JavaScript.
 
 ## 🌐 Live Demo
 
-(Add your Netlify/Vercel link here)
+https://quiz-app-sainath.netlify.app/
 
 ## 📚 Tech Used
 
